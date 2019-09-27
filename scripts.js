@@ -77,5 +77,11 @@ function showCalendar(month, year) {
 
         tbl.appendChild(row); // appending each row into calendar body.
     }
+    
+    window.print();
 
+}
+
+function(daysInMonth(iMonth, iYear) {
+    return 32 - new Date(iYear, iMonth, 32).getDate();
 }
